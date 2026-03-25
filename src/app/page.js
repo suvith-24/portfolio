@@ -169,16 +169,16 @@ Projects included image processing, sentiment analysis, image recognition models
   // Skills SVG logos mapping
   // -----------------------------
   const skillsIcons = {
-    python: "/logos/python.svg",
-    sql: "/logos/sql.svg",
-    streamlit: "/logos/Streamlit.svg",
-    tensorflow: "/logos/TensorFlow.svg",
-    scikitlearn: "/logos/scikitlearn.svg",
-    opencv: "/logos/opencv.svg",
-    powerbi: "/logos/powerbi.svg",
-    matplotlib: "/logos/Matplotlib.svg",
-    seaborn: "/logos/seaborn.svg",
-    vscode: "/logos/vscode.svg",
+    python: "/logos/python.svg?v=1",
+    sql: "/logos/sql.svg?v=1",
+    streamlit: "/logos/Streamlit.svg?v=1",
+    tensorflow: "/logos/TensorFlow.svg?v=1",
+    scikitlearn: "/logos/scikitlearn.svg?v=1",
+    opencv: "/logos/opencv.svg?v=1",
+    powerbi: "/logos/powerbi.svg?v=1",
+    matplotlib: "/logos/Matplotlib.svg?v=1",
+    seaborn: "/logos/seaborn.svg?v=1",
+    vscode: "/logos/vscode.svg?v=1",
   };
 
   return (
