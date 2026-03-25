@@ -343,6 +343,7 @@ Projects included image processing, sentiment analysis, image recognition models
                 width={32}
                 height={32}
                 className="w-full h-full object-contain"
+                unoptimized={true}
               />
             </div>
           ))}
