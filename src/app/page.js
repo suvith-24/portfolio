@@ -1,9 +1,4 @@
-"use client";
-
-import { useRef, useEffect, useState } from "react";
-import { motion } from "framer-motion";
-import { FaLinkedin, FaGithub, FaKaggle, FaEnvelope, FaPhone, FaMapMarkerAlt, FaPaperPlane } from "react-icons/fa";
-import emailjs from "@emailjs/browser";
+import Image from "next/image";
 
 export default function Home() {
   const sections = [
@@ -342,9 +337,11 @@ Projects included image processing, sentiment analysis, image recognition models
                   {skill.toUpperCase()}
                 </span>
               )}
-              <img
+              <Image
                 src={skillsIcons[skill]}
                 alt={skill}
+                width={32}
+                height={32}
                 className="w-full h-full object-contain"
               />
             </div>
