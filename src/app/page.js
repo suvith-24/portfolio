@@ -171,12 +171,12 @@ Projects included image processing, sentiment analysis, image recognition models
   const skillsIcons = {
     python: "/logos/python.svg",
     sql: "/logos/sql.svg",
-    streamlit: "/logos/streamlit.svg",
-    tensorflow: "/logos/tensorflow.svg",
+    streamlit: "/logos/Streamlit.svg",
+    tensorflow: "/logos/TensorFlow.svg",
     scikitlearn: "/logos/scikitlearn.svg",
     opencv: "/logos/opencv.svg",
     powerbi: "/logos/powerbi.svg",
-    matplotlib: "/logos/matplotlib.svg",
+    matplotlib: "/logos/Matplotlib.svg",
     seaborn: "/logos/seaborn.svg",
     vscode: "/logos/vscode.svg",
   };
