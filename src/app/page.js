@@ -1,6 +1,10 @@
-import Image from "next/image";
+"use client";
 
-export default function Home() {
+import { useRef, useEffect, useState } from "react";
+import { motion } from "framer-motion";
+import { FaLinkedin, FaGithub, FaKaggle, FaEnvelope, FaPhone, FaMapMarkerAlt, FaPaperPlane } from "react-icons/fa";
+import emailjs from "@emailjs/browser";
+import Image from "next/image";
   const sections = [
     "about",
     "projects",
