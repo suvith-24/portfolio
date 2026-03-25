@@ -4,7 +4,8 @@ import { useRef, useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { FaLinkedin, FaGithub, FaKaggle, FaEnvelope, FaPhone, FaMapMarkerAlt, FaPaperPlane } from "react-icons/fa";
 import emailjs from "@emailjs/browser";
-import Image from "next/image";
+
+export default function Portfolio() {
   const sections = [
     "about",
     "projects",
@@ -258,12 +259,12 @@ Projects included image processing, sentiment analysis, image recognition models
               />
             </motion.div>
 
-          {/* Right: About Content */}
-          <motion.div
-            initial={{ opacity: 0, x: 50 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.8, delay: 0.4 }}
-          >
+            {/* Right: About Content */}
+            <motion.div
+              initial={{ opacity: 0, x: 50 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.8, delay: 0.4 }}
+            >
             <h1 className="text-5xl font-bold mb-2">Suvith Shetty</h1>
             <p className="text-2xl text-purple-400 font-semibold mb-6">Data Scientist | AI Professional</p>
             
@@ -341,13 +342,10 @@ Projects included image processing, sentiment analysis, image recognition models
                   {skill.toUpperCase()}
                 </span>
               )}
-              <Image
+              <img
                 src={skillsIcons[skill]}
                 alt={skill}
-                width={32}
-                height={32}
                 className="w-full h-full object-contain"
-                unoptimized={true}
               />
             </div>
           ))}
