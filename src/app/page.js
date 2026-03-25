@@ -318,7 +318,7 @@ Projects included image processing, sentiment analysis, image recognition models
               initial={{ opacity: 0, x: -50 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
-              className="flex flex-col items-center justify-center order-2 lg:order-1"
+              className="flex flex-col items-center justify-center order-1"
             >
               <img
                 src="/profile.jpg"
@@ -332,7 +332,7 @@ Projects included image processing, sentiment analysis, image recognition models
               initial={{ opacity: 0, x: 50 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8, delay: 0.4 }}
-              className="text-center lg:text-left order-1 lg:order-2"
+              className="text-center lg:text-left order-2"
             >
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-2">Suvith Shetty</h1>
             <p className="text-lg sm:text-xl lg:text-2xl text-purple-400 font-semibold mb-4 lg:mb-6">Data Scientist | AI Professional</p>
